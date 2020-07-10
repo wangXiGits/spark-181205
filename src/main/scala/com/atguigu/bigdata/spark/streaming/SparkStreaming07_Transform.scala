@@ -15,7 +15,7 @@ object SparkStreaming07_Transform {
 
     //转换
     //运行Driver中 (1)
-    socketLineDStream.transform {
+   /* socketLineDStream.transform {
       case rdd => {
         //运行在Driver中（m=采集周期）
         rdd.map {
@@ -26,7 +26,7 @@ object SparkStreaming07_Transform {
         }
       }
     }
-
+*/
     //socketLineDStream.foreachRDD()
 
 
